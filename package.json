@@ -3,7 +3,7 @@
   "version": "1.0.0",
   "private": true,
   "scripts": {
-    "generate": "node generate.js",
+    "generate": "python3 generate.py",
     "build": "npm run generate && next build",
     "dev": "npm run generate && next dev",
     "lint": "eslint .",
